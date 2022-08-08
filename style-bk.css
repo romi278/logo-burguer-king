@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Titan+One&display=swap");
+
+:root {
+  --main-hamb-color: #f0ebdc;
+  --hamb-color: #e18c46;
+  --font-hamb-color: #b53423;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(249, 198, 251);
+  padding-top: 1em;
+  padding-left: 2em;
+}
+.main-hamb1 {
+  width: 320px;
+  height: 120px;
+  background: var(--main-hamb-color);
+  border-radius: 50% / 90% 90% 0 0;
+}
+
+.hamb-top {
+  width: 290px;
+  height: 90%;
+  background: var(--hamb-color);
+  border-radius: 50% / 90% 90% 0 0;
+  transform: translate(13px, 11px);
+}
+
+.main-hamb2 {
+  width: 320px;
+  height: 150px;
+  background: var(--main-hamb-color);
+}
+
+p {
+  display: flex;
+  font-family: "Titan One", cursive;
+  font-size: 65px;
+  text-align: center;
+  color: var(--font-hamb-color);
+  transform: translate(24px, 0px);
+}
+
+p span {
+  font-size: 100px;
+  transform: translate(-274px, 48px);
+  letter-spacing: 10px;
+}
+.main-hamb3 {
+  width: 320px;
+  height: 80px;
+  background: var(--main-hamb-color);
+  border-radius: 50% / 0 0 90% 90%;
+}
+.hamb-bottom {
+  width: 290px;
+  height: 80%;
+  background: var(--hamb-color);
+  border-radius: 50% / 0 0 90% 90%;
+  transform: translate(13px, 2px);
+}
